@@ -22,7 +22,7 @@ class Menu {
         System.out.printf("Skład: %s %.1fml, %s %.1fml, %s %.1fml\n", drink1.component1.name, drink1.component1.number,
                 drink1.component2.name, drink1.component2.number, drink1.component3.name, drink1.component3.number);
         System.out.printf("Cena: %.2f\n", drink1.price);
-        System.out.printf("Czy drink alkoholowy? %s\n", drink1.isAlcohol);
+        System.out.printf("Czy drink alkoholowy? %b\n", drink1.isAlcohol);
         double total = drink1.component1.number + drink1.component2.number + drink1.component3.number;
         System.out.println("Łączna pojemność: " + total + "ml.");
         System.out.print("\n");
@@ -48,7 +48,7 @@ class Menu {
         System.out.printf("Skład: %s %.1fml, %s %.1fml, %s %.1fml\n", drink2.component1.name, drink2.component1.number,
                 drink2.component2.name, drink2.component2.number, drink2.component3.name, drink2.component3.number);
         System.out.printf("Cena: %.2f\n", drink2.price);
-        System.out.printf("Czy drink alkoholowy? %s\n", drink2.isAlcohol);
+        System.out.printf("Czy drink alkoholowy? %b\n", drink2.isAlcohol);
 
         total = drink2.component1.number + drink2.component2.number + drink2.component3.number;
 
